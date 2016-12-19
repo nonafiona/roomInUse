@@ -15,25 +15,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var nameLabel: UILabel!
     
+
     
-    // minor values :
-    // mint - 4884
-    // icy blue - 39702
-    // blueberry pi - 1103
     
-    // MARK: identify the minor values of my beacons & associate a color to them.
-    let colors = [
-        4884: UIColor (red: 162/255, green: 213/255, blue: 181/255, alpha: 1), // mint
-        39702: UIColor (red: 142/255, green: 212/255, blue: 220/255, alpha: 1), // icy blue
-        1103: UIColor (red: 84/255, green: 77/255, blue: 160/255, alpha: 1) // blueberry pi
-    ]
     
-    let name = [
-        4884: "mint",
-        39702: "icy blue",
-        1103: "blueberry pi"
-        
-    ]
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,3 +49,4 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
 }
+
